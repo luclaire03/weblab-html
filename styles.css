@@ -1,0 +1,122 @@
+body {
+    font-family: 'Comfortaa';
+}
+
+.content {
+    position: absolute;
+    left: 12%;
+    margin: auto;
+    padding: 4%;
+}
+
+.navbar {
+    font-size: 30px;
+    background: #E1D1F5;
+    position: absolute;
+    left: 0%;
+    width: 10%;
+    height: 100%;
+    padding: 1.25%;
+    line-height: 75%;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.logout {
+    position: absolute;
+    bottom: 10%;
+}
+
+.person {
+    position: absolute;
+    right: 5%;
+    width: 16%;
+    top: 15%;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+
+.line {
+    height: 1%;
+    width: 600px;
+    border: 1px solid #CDAEF5;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.section {
+    font-size: 110%;
+}
+
+.songs {
+    column-count: 4;
+    width: 140%;
+    column-gap: 10px;
+    column-width: 160px;
+}
+
+.songs2 {
+    column-count: 2;
+    width: 70%;
+    column-gap: 10px;
+}
+
+.song {
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    /* text-align: center; */
+}
+
+.caption {
+    width: 160px;
+    text-align: center;
+    line-height: 140%;
+}
+
+.new_song {
+    height: 160px;
+    width: 160px;
+    background: #E1D1F5;
+    text-align: center;
+    font-size: 200%;
+    line-height: 160px;
+}
+
+.new_section {
+    color: #CDAEF5;
+    font-size: 110%;
+}
+
+.bio {
+    font-size: 200%;
+}
+
+.editBtn {
+    display: flex;
+    margin: auto;
+    background: #E1D1F5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+    border-radius: 10%;
+}
