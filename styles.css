@@ -120,3 +120,35 @@ body {
     height: 25px;
     border-radius: 10%;
 }
+
+.pickBtn {
+    display: flex;
+    margin: auto;
+    background: #E1D1F5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 150%;
+    margin-top: 2%;
+}
+
+.create_playlist {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
+    /* line-height: 100%; */
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: 'Comfortaa';
+    font-size: 110%;
+}
