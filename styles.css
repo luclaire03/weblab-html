@@ -193,3 +193,34 @@ a:hover {
     margin-bottom: 30px;
     margin: auto;
 }
+
+.home {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 12% 0;
+}
+
+.home p {
+    color: #CDAEF5;
+    font-size: 400%;
+}
+
+.home h1 {
+    font-size: 600%;
+}
+
+.loginBtn {
+    display: flex;
+    margin: auto;
+    background: #E1D1F5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 150%;
+    margin-top: 2%;
+}
