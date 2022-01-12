@@ -128,7 +128,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 160px;
     height: 50px;
     border-radius: 15px;
     font-size: 150%;
@@ -144,6 +144,15 @@ body {
     /* line-height: 100%; */
 }
 
+.login {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
+    /* line-height: 100%; */
+}
+
 input[type=text] {
     width: 20%;
     padding: 10px 10px;
@@ -151,4 +160,36 @@ input[type=text] {
     border-bottom: 2px solid black;
     font-family: 'Comfortaa';
     font-size: 110%;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.platform {
+    display: flex;
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 180%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* for when these names are eventually links
+a:hover {
+    background-color: some shade of white
+} 
+*/
+
+.line2 {
+    height: 1%;
+    width: 400px;
+    border: 1px solid #C5C5C5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
 }
