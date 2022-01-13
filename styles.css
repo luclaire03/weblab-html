@@ -360,3 +360,26 @@ a:hover {
     font-size: 150%;
 }
 
+.finalize_playlist {
+    margin: auto;
+    width: 575px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+}
+
+.exportBtn {
+    display: flex;
+    margin: auto;
+    background: #E1D1F5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 150%;
+    margin-top: 5%;
+}
+
