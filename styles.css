@@ -255,3 +255,108 @@ a:hover {
     font-size: 200%;
 }
 
+.v1 {
+    border-left: 6px solid #CDAEF5;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.stuff {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.user1 {
+    /* left: 50%;
+    width: 30%;
+    top: 0px; */
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 7%;
+    width: 30%;
+}
+
+.user1name {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.user2 {
+    position: absolute;
+    margin-left: 42%;
+    width: 30%;
+    margin-top: -46%;
+}
+
+.user2name {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.user1 p {
+    font-size: 250%;
+}
+
+.user2 p {
+    font-size: 250%;
+}
+
+.vlogos {
+    margin-left: -15%;
+}
+
+.user1songs {
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+.user2songs {
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.song_list {
+    /* margin-left: 18%; */
+    position: relative;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    width: 650px;
+    padding: 2%;
+}
+
+.h_caption {
+    padding: 1%;
+    font-size: 120%;
+    width: 400px;
+}
+
+.doneBtn {
+    display: flex;
+    background: #E1D1F5;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 150%;
+}
+
