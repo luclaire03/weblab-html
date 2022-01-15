@@ -383,3 +383,68 @@ a:hover {
     margin-top: 5%;
 }
 
+.search_new {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+    /* line-height: 100%; */
+}
+
+.search_new_song {
+    width: 40%;
+    padding: 10px 2px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: 'Comfortaa';
+    font-size: 130%;
+}
+
+.results {
+    margin: auto;
+    margin-top: -2%;
+    width: 80%;
+}
+
+.song_list2 {
+    /* margin-left: 18%; */
+    position: relative;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    /* width: 650px; */
+    padding: 2%;
+}
+
+.spotify_results {
+    left: 15%;
+    background: #e9dbfa;
+    padding: 2%;
+    position: absolute;
+    width: 20%;
+}
+
+.yt_results {
+    left: 42.5%;
+    background: #e9dbfa;
+    padding: 2%;
+    position: absolute;
+    width: 20%;
+}
+
+.to_add {
+    left: 70%;
+    background: #e9dbfa;
+    padding: 2%;
+    position: absolute;
+    width: 20%;
+}
+
+.delete {
+    font-size: 150%;
+    color: red;
+}
+
