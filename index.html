@@ -25,7 +25,8 @@
             </div>
             
         </div>
-        <div class="profile">
+        <!-- TOGGLE FROM PROFILE_VIS TO PROFILE_TRANS TO CONTROL OPACITY -->
+        <div class="profile_vis">
             <div class="content">
                 <div class="section">
                     <h1>absolute bangers</h1>
@@ -52,6 +53,35 @@
                             <img src="images/spotify_logo.png" width="15%" height="15%"><img src="images/am_logo.png" width="15%" height="15%"><img src="images/yt_logo.png" width="15%" height="15%">
                         </div>
                     </div>
+                    <!-- <div class="song">
+                        <img src="images/or.png" width="160px" height="160px"><br>
+                        <div class="caption">
+                            good 4 u<br>
+                            Olivia Rodrigo
+                        </div>
+                        <div class="logo_bar">
+                            <img src="images/spotify_logo.png" width="15%" height="15%"><img src="images/am_logo.png" width="15%" height="15%"><img src="images/yt_logo.png" width="15%" height="15%">
+                        </div>
+                    </div> -->
+                    <div class="song">
+                        <div class="new_song" width="160px" height="160px">+</div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h1>b-tier</h1>
+                </div>
+                <div class="line"></div>
+                <div class="songs">
+                    <div class="song">
+                        <img src="images/jb.png" width="160px" height="160px"><br>
+                        <div class="caption">
+                            Ghost<br>
+                            Justin Bieber
+                        </div>
+                        <div class="logo_bar">
+                            <img src="images/spotify_logo.png" width="15%" height="15%"><img src="images/am_logo.png" width="15%" height="15%"><img src="images/yt_logo.png" width="15%" height="15%">
+                        </div>
+                    </div>
                     <div class="song">
                         <img src="images/or.png" width="160px" height="160px"><br>
                         <div class="caption">
@@ -62,15 +92,6 @@
                             <img src="images/spotify_logo.png" width="15%" height="15%"><img src="images/am_logo.png" width="15%" height="15%"><img src="images/yt_logo.png" width="15%" height="15%">
                         </div>
                     </div>
-                    <div class="song">
-                        <div class="new_song" width="160px" height="160px">+</div>
-                    </div>
-                </div>
-                <div class="section">
-                    <h1>b-tier</h1>
-                </div>
-                <div class="line"></div>
-                <div class="songs2">
                     <div class="song">
                         <img src="images/jb.png" width="160px" height="160px"><br>
                         <div class="caption">
@@ -91,7 +112,7 @@
                 </div>
             </div>
             <div class="person">
-                <img src="images/Screen Shot 2022-01-10 at 12.55.05 PM.png">
+                <img src="images/Screen Shot 2022-01-10 at 12.55.05 PM.png" width="200px" height="200px">
                 <h1>Doggo</h1>
                 <div class="logos">
                     <img src="images/spotify_logo.png" width="15%" height="15%"><img src="images/yt_logo.png" width="15%" height="15%">
@@ -101,7 +122,10 @@
                     edit
                 </div>
             </div>
-            <!-- for when the user clicks to add a new song, directly overlayed just so i can see the positioning -->
+        </div>
+        <!-- for when the user clicks to add a new song, directly overlayed just so i can see the positioning -->
+        <!-- TOGGLE THIS CLASS TO "SEARCH_VIS" TO BRING UP THE SEARCHING DISPLAY, "SEARCH_HIDDEN" TO HIDE IT -->
+        <div class="search_hidden">
             <div class="search_new" id="add_new_song">
                 <input type="text" class="search_new_song" placeholder="search for a song">
             </div>
@@ -143,5 +167,6 @@
                 </div>
             </div>
         </div>
+            <!-- </div> -->
     </body>
 </html>

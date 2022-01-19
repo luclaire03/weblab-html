@@ -7,6 +7,7 @@ body {
     left: 12%;
     margin: auto;
     padding: 4%;
+    width: 40%;
 }
 
 .navbar {
@@ -66,22 +67,31 @@ body {
 }
 
 .songs {
-    column-count: 4;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 8%;
+
+    /* column-count: 4;
     width: 140%;
     column-gap: 10px;
-    column-width: 160px;
+    column-width: 160px; */
 }
 
 .songs2 {
-    column-count: 2;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    /* column-count: 2;
     width: 70%;
-    column-gap: 10px;
+    column-gap: 10px; */
 }
 
 .song {
     align-items: center;
     justify-content: center;
     height: 240px;
+    width: 160px;
+    /* padding: 10%; */
     /* text-align: center; */
 }
 
@@ -177,6 +187,14 @@ body {
     font-size: 180%;
     align-items: center;
     justify-content: center;
+}
+
+.profile_vis {
+    opacity: 1;
+}
+
+.profile_trans {
+    opacity: 0.2;
 }
 
 /* for when these names are eventually links
@@ -383,22 +401,35 @@ a:hover {
     margin-top: 5%;
 }
 
+.search_vis {
+    opacity: 1;
+}
+
+.search_hidden {
+    display: none;
+}
+
 .search_new {
     margin: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
     padding: 5% 0;
+    position: relative;
     /* line-height: 100%; */
 }
 
 .search_new_song {
+    margin: auto;
     width: 40%;
-    padding: 10px 2px;
+    /* padding: 10px 2px; */
     border: none;
     border-bottom: 2px solid black;
     font-family: 'Comfortaa';
     font-size: 130%;
+    background: #e9dbfa;
+    padding: 1%;
+    /* position: absolute; */
 }
 
 .results {
@@ -421,7 +452,8 @@ a:hover {
 
 .spotify_results {
     left: 15%;
-    background: #e9dbfa;
+    background: #dfc9fc;
+    /* background: #E1D1F5; */
     padding: 2%;
     position: absolute;
     width: 20%;
